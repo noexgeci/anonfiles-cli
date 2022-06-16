@@ -33,5 +33,5 @@ if response['status']:
 else:
     message = resp['error']['message']
     errtype = resp['error']['type']
-	print(f'{Fore.RED}! {Fore.RESET}Error {Fore.RED}→ {Fore.LIGHTRED_EX}{message} {Fore.RED}| {Fore.LIGHTRED_EX}{errtype}')
-	os.system('pause >nul')
+    print(f'{Fore.RED}! {Fore.RESET}Error {Fore.RED}→ {Fore.LIGHTRED_EX}{message} {Fore.RED}| {Fore.LIGHTRED_EX}{errtype}')
+    os.system('pause >nul')
